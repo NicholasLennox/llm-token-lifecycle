@@ -1,3 +1,7 @@
+---
+title: LLM Token Lifecycle
+---
+
 ```mermaid
 graph TD;
     A[Tokenization] --> B[Vocabulary Lookup];
