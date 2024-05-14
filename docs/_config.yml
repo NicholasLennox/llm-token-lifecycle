@@ -1,0 +1,12 @@
+title: LLM Token Lifecycle
+description: Tracking the lifecycle of a token in Large Language Models
+baseurl: ""
+url: "https://nicholaslennox.github.io/llm-token-lifecycle/"
+
+source: "docs"
+destination: "docs/_site"
+
+plugins:
+  - jekyll-mermaid
+
+markdown: kramdown
