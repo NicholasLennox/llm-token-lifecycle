@@ -28,10 +28,11 @@ jobs:
       - name: Install Bundler
         run: gem install bundler -v 2.4.22
       - name: Install Dependencies
-        run: bundle install
         working-directory: ./docs
+        run: bundle install
       - name: Build with Jekyll
-        run: bundle exec jekyll build --source ./docs --destination ./docs/_site
+        working-directory: ./docs
+        run: bundle exec jekyll build --destination _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -48,4 +49,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          path: ./docs/_site
+          path: docs/_site
