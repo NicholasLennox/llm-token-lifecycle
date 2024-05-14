@@ -1,5 +1,6 @@
 ---
 title: LLM Token Lifecycle
+layout: default
 ---
 
 ```mermaid
@@ -26,5 +27,4 @@ graph TD;
     click I href "stacking-layers/README.md" "Stacking Transformer Layers Details"
     click J href "output-layer/README.md" "Output Layer Details"
     click K href "decoding/README.md" "Decoding Details"
-
 ```
