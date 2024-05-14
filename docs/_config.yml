@@ -1,11 +1,8 @@
+# docs/_config.yml
 title: LLM Token Lifecycle
 description: Tracking the lifecycle of a token in Large Language Models
 baseurl: ""
 url: "https://nicholaslennox.github.io/llm-token-lifecycle/"
-
-# Directories
-source: "."
-destination: "_site"
 
 plugins:
   - jekyll-mermaid
